@@ -46,7 +46,10 @@ Before proceeding, ensure you have the following tools and accounts set up:
    Sign up for an account on Infura.
    Create a project to obtain an RPC link.
 
-**Compiling the Contract**
+
+
+## Compiling the Contract
+
 1. **Open the terminal and navigate to the root folder of your Hardhat project:**
 ```bash
 cd hardhat
@@ -58,7 +61,8 @@ npx hardhat compile
 ```
 
 
-**Deploying the Contract**
+
+## Deploying the Contract
 
 1. **After compiling, deploy the contract to the desired network:**
 ```bash
@@ -67,7 +71,8 @@ npx hardhat run scripts/deploy.js --network mainnet
 2. **After deployment, note down the contract address for the next steps.**
 
 
-**Minting NFTs**
+
+## Minting NFTs
 
 1. **Navigate to the root folder of your minting project:**
 cd NFT-MINTING
@@ -77,7 +82,9 @@ cd NFT-MINTING
 npx hardhat run scripts/deploy.js --network mainnet
 ```
 
-**Important Links**
+
+## Important Links
+
 * [Pinata Cloud](https://app.pinata.cloud/)
 * [MetaMask](https://developer.metamask.io/)
 * [Mumbai Blockchain Explorer](https://www.oklink.com/mumbai)
@@ -85,6 +92,9 @@ npx hardhat run scripts/deploy.js --network mainnet
 * [NFT Explorer Example](https://github.com/alchemyplatform/Build-Your-NFT-Explorer)
 * [Alchemy Dashboard](https://dashboard.alchemy.com/)
 
-**License**
+
+
+## License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
 
